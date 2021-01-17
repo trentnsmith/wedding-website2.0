@@ -1,11 +1,28 @@
-import React from 'react';
+import React, { Component } from 'react';
+import Header from './components/Header/Header';
+import Main from './components/Main/Main';
+import OurStory from './components/OurStory/OurStory';
+import Events from './components/Events/Events';
+import Registry from './components/Registry/Registry';
+import WeddingParty from './components/WeddingParty/WeddingParty';
+import Footer from './components/Footer/Footer';
+import './App.css';
 
-function App() {
-  return (
-    <main className='App'>
-      {/* content goes here */}
-    </main>
-  );
-}
+
+class App extends Component {
+  render () {
+    return (
+      <main className='App'>
+        <Header/>
+        <Main />
+        <OurStory />
+        <Events />
+        <Registry />
+        <WeddingParty />
+        <Footer />
+      </main>
+    );
+  };
+};
 
 export default App;

@@ -1,0 +1,13 @@
+.main {
+    background: url('../Img/sd3.jpg') no-repeat;
+    background-size: cover;
+    margin-top: 5px;
+    height: 500px;
+    transition: all .5s ease;
+}
+
+@media (min-width: 768px) {
+    .main {
+        margin-top: 65px;
+    }
+}

@@ -1,0 +1,61 @@
+header {
+    display: block;
+}
+
+.site-header {
+    background-color: white transparent;
+    border-bottom: 1px solid black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 3;
+    transition: all .5s ease;
+}
+
+.navbar-brand {
+    font-size: 22px;
+    overflow: hidden;
+    transition: all .5s ease;
+    width: auto;
+}
+
+
+
+.navbar-nav {
+    text-align: center;
+}
+
+.nav-item {
+    text-decoration: none;
+    display: inline;
+}
+
+.nav-link {
+    text-decoration: none;
+    padding: 20px;
+}
+
+.navbar-collapse {
+    display: none;
+}
+
+@media (min-width: 768px) {
+    
+
+    .navbar-toggle {
+        display: none;
+
+    }
+
+    .navbar-brand {
+        height: 65px;
+        font-size: 40px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .navbar-collapse {
+        display: initial;
+    }
+}
