@@ -8,3 +8,7 @@
     align-content: center;
     
 }
+
+li {
+    list-style-type: none;
+}
