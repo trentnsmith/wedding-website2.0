@@ -1,0 +1,15 @@
+.hotel {
+    display: block;
+}
+
+.highlander {
+    height: 300px
+}
+
+@media (min-width: 768px) {
+    .hotel {
+        display: inline-block;
+        width: 50%;
+    }
+    
+}

@@ -6,6 +6,7 @@ import Events from './components/Events/Events';
 import Registry from './components/Registry/Registry';
 import WeddingParty from './components/WeddingParty/WeddingParty';
 import Footer from './components/Footer/Footer';
+import Accm from './components/Accommodations/Accm';
 import './App.css';
 
 
@@ -17,6 +18,7 @@ class App extends Component {
         <Main />
         <OurStory />
         <Events />
+        <Accm />
         <Registry />
         <WeddingParty />
         <Footer />
