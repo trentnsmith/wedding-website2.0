@@ -1,6 +1,7 @@
 .main {
-
+    background: url('../images/places/trentjeanfall.jpg') no-repeat;
     background-size: cover;
+    max-width: 600px;
     margin-top: 5px;
     height: 500px;
     transition: all .5s ease;
