@@ -1,0 +1,10 @@
+.container-party {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.party {
+    align-content: center;
+    
+}
