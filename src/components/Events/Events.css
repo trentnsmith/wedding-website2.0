@@ -1,0 +1,22 @@
+h1 {
+    font-size: xx-large;
+}
+
+.container-events {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+
+@media (min-width: 768px) {
+    .container-events {
+        flex-direction: row;
+
+    }
+
+    .event {
+        width: 50%;
+    }
+}
