@@ -3,7 +3,7 @@ header {
 }
 
 .site-header {
-    background-color: white transparent;
+    background-color: #ffff;
     border-bottom: 1px solid black;
     position: fixed;
     top: 0;
