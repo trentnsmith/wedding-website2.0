@@ -1,6 +1,6 @@
 .container-party {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-evenly;
 }
 
@@ -11,4 +11,11 @@
 
 li {
     list-style-type: none;
+}
+
+@media (min-width: 768px) {
+    .container-party {
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
 }
