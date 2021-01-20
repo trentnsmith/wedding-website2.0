@@ -1,15 +1,23 @@
-.hotel {
-    display: block;
+.container-accm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .highlander {
     height: 300px
 }
 
-@media (min-width: 768px) {
+
+@media (min-width: 945px) {
     .hotel {
         display: inline-block;
         width: 50%;
+    }
+
+    .container-accm {
+        flex-direction: row;
     }
     
 }
