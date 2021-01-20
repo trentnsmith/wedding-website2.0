@@ -3,18 +3,17 @@ h1 {
 }
 
 .container-events {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+    position: relative;
+}
+
+.event {
+    max-width: 267px;
 }
 
 
 
 @media (min-width: 768px) {
-    .container-events {
-        flex-direction: row;
-
-    }
+    
 
     .event {
         width: 50%;

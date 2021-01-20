@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import './Events.css';
 
+import Church from '../images/places/church.jpg';
+import Walker from '../images/places/walker.JPG';
+
 class Events extends Component {
     render() { 
         return (
@@ -9,7 +12,10 @@ class Events extends Component {
                     <h1>Events</h1>
                 </div>
                 <div className="container-events"> 
-                    <div className=" event wedding-event">
+                    <div className="event wedding-event">
+                        <div className="image-block">
+                            <img src={Church} alt="St Marys Img"/>
+                        </div>
                         <h2>Wedding</h2>
                         <h3>St. Mary's Catholic Church</h3>
                         <p>
@@ -22,6 +28,9 @@ class Events extends Component {
                     </div>
 
                     <div className="event reception-event">
+                    <div className="image-block">
+                            <img src={Walker} alt="Walker Homestead Img"/>
+                        </div>
                         <h2>Reception</h2>
                         <h3>Walker Homestead</h3>
                         <p>
