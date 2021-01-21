@@ -2,20 +2,51 @@ h1 {
     font-size: xx-large;
 }
 
+
 .container-events {
-    position: relative;
+    padding: 10px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
 
 .event {
-    max-width: 267px;
+    max-width: 80%;
+}
+
+.event-image {
+   
+}
+
+.pic-church {
+    max-width: 75%;
+}
+
+.pic-walker {
+    max-width: 100%;
 }
 
 
+@media (min-width: 500px) {
+    .pic-walker {
+        max-width: 80%;
+    }
+}
 
 @media (min-width: 768px) {
-    
+    .container-events {
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
 
-    .event {
-        width: 50%;
+    .pic-walker {
+        width: 400px;
+    }
+
+  
+    
+    .info-rec {
+        margin-top: 100px;
     }
 }

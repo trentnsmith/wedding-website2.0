@@ -3,7 +3,7 @@ header {
 }
 
 .site-header {
-    background-color: #ffff;
+    background-color: white;
     border-bottom: 1px solid black;
     position: fixed;
     top: 0;
@@ -18,12 +18,12 @@ header {
     overflow: hidden;
     transition: all .5s ease;
     width: auto;
+    font-family: 'Parisienne', cursive;
 }
-
-
 
 .navbar-nav {
     text-align: center;
+    margin-left: -45px;
 }
 
 .nav-item {
@@ -33,6 +33,7 @@ header {
 
 .nav-link {
     text-decoration: none;
+    color: black;
     padding: 20px;
 }
 
@@ -50,7 +51,7 @@ header {
 
     .navbar-brand {
         height: 65px;
-        font-size: 40px;
+        font-size: 50px;
         width: 100%;
         text-align: center;
     }

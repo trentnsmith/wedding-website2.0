@@ -1,12 +1,35 @@
+.accm-section {
+    background-color: lightgray;
+}
+
 .container-accm {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 10px 10px;
+    text-align: center;
+}
+
+.hotel-picture {
+    width: 80vw;
+    height: 90vw;
+}
+
+.hotel-logo {
+    margin-bottom: -100px;
 }
 
 .highlander {
-    height: 300px
+    flex: 50%;
+    max-width: 100%;
+}
+
+@media (min-width: 540px) {
+    .hotel-picture {
+        width: 450px;
+        height: 440px;
+    }
 }
 
 
@@ -16,8 +39,15 @@
         width: 50%;
     }
 
+    .hotel-info {
+        padding-left: 10px;
+        margin-top: 0px;
+    }
+
     .container-accm {
         flex-direction: row;
     }
+
+
     
 }

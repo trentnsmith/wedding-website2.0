@@ -6,7 +6,7 @@ class Accm extends Component {
     
     render() { 
         return ( 
-            <section>
+            <section className="accm-section">
                 <div>
                     <h1> Accommodations</h1>
                 </div>
