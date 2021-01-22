@@ -1,17 +1,55 @@
+.wedding-party {
+    background-image: url('../images/places/walker-view.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+    display: block;
+    filter: opacity(1.0);
+    color: white;
+}
+
+.overlay-party {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.2;
+    position: absolute;   
+}
+
 .container-party {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    position: relative;
 }
 
 .party {
     align-content: center;
-    
+    margin-left: -60px;
+    padding: 5 5;
 }
+
+
+.party-photo {
+    width: 100px;
+    border-radius: 50px;
+    border: 3px solid black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}
 
 li {
     list-style-type: none;
+    text-align: center;
 }
+
+.party-text {
+    text-align: center;
+    font-size: x-large;
+}
+
 
 @media (min-width: 768px) {
     .container-party {

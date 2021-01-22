@@ -1,37 +1,82 @@
 import React, { Component } from 'react';
 import './WeddingParty.css';
 
+import QMark from '../images/wedding-party/question.png';
+
 class WeddingParty extends Component {
     render() { 
         return (
             <section className="wedding-party">
-            <div>
-                <h1>Wedding Party</h1>
-            </div>
-            <div className="container-party">
-                <div className="party party-bride">
-                    <ul>
-                        <li>Maid of Honor</li>
-                        <li>Bridesmaid</li>
-                        <li>Bridesmaid</li>
-                        <li>Bridesmaid</li>
-                        <li>Bridesmaid</li>
-                        <li>Bridesmaid</li>
-                        <li>Bridesmaid</li>
-                    </ul>
+                <div className="overlay-party"></div>
+                <div className="party-header">
+                    <h1>Wedding Party</h1>
                 </div>
-                <div className="party party-groom">
-                    <ul>
-                        <li>Best Man</li>
-                        <li>Groomsman</li>
-                        <li>Groomsman</li>
-                        <li>Groomsman</li>
-                        <li>Groomsman</li>
-                        <li>Groomsman</li>
-                        <li>Groomsman</li>
-                    </ul>
+                <div className="container-party">
+                    <div className="party party-bride">
+                        <ul>
+                            <li>
+                                <img className="party-photo" src={QMark} alt="img"/>
+                                <p className="party-text">Maid of Honor - Grace Larew</p>
+                            </li>
+                            <li>
+                                <img className="party-photo" src={QMark} alt="img"/>
+                                <p className="party-text">Bridesmaid</p>
+                            </li>
+                            <li>
+                                <img className="party-photo" src={QMark} alt="img"/>
+                                <p className="party-text">Bridesmaid</p>
+                            </li>
+                            <li>
+                                <img className="party-photo" src={QMark} alt="img"/>
+                                <p className="party-text">Bridesmaid</p>
+                            </li>
+                            <li>
+                                <img className="party-photo" src={QMark} alt="img"/>
+                                <p className="party-text">Bridesmaid</p>
+                            </li>
+                            <li>
+                                <img className="party-photo" src={QMark} alt="img"/>
+                                <p className="party-text">Bridesmaid</p>
+                            </li>
+                            <li>
+                                <img className="party-photo" src={QMark} alt="img"/>
+                                <p className="party-text">Bridesmaid</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div className="party party-groom">
+                        <ul>
+                            <li>
+                                <img className="party-photo" src={QMark} alt="img"/>
+                                <p className="party-text">Best Man - Matt Haith</p>
+                            </li>
+                            <li>
+                                <img className="party-photo" src={QMark} alt="img"/>
+                                <p className="party-text">Groomsman - Nick Smith</p>
+                            </li>
+                            <li>
+                                <img className="party-photo" src={QMark} alt="img"/>
+                                <p className="party-text">Groomswoman - Kayley Smith</p>
+                            </li>
+                            <li>
+                                <img className="party-photo" src={QMark} alt="img"/>
+                                <p className="party-text">Groomsman - Brock Pohlmeier</p>                        
+                            </li>
+                            <li>
+                                <img className="party-photo" src={QMark} alt="img"/>
+                                <p className="party-text">Groomsman - Jake Heim</p>                            
+                            </li>
+                            <li>
+                                <img className="party-photo" src={QMark} alt="img"/>
+                                <p className="party-text">Groomsman - Harrison Wallin</p>                            
+                            </li>
+                            <li>
+                                <img className="party-photo" src={QMark} alt="img"/>
+                                <p className="party-text">Groomsman - Brian Scandariato</p>                            
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-            </div>
             </section>
         );
     }
