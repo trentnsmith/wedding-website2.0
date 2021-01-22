@@ -9,10 +9,10 @@ class Story extends Component {
     render() { 
        
         return (
-            <div className="container">
+            <section className="container">
                 <h1>Our Story</h1>
                     
-            </div>
+            </section>
         );
     }
 }
