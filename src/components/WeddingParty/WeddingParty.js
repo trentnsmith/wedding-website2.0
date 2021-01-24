@@ -20,27 +20,27 @@ class WeddingParty extends Component {
                             </li>
                             <li>
                                 <img className="party-photo" src={QMark} alt="img"/>
-                                <p className="party-text">Bridesmaid</p>
+                                <p className="party-text">Bridesmaid - Katie Holmested</p>
                             </li>
                             <li>
                                 <img className="party-photo" src={QMark} alt="img"/>
-                                <p className="party-text">Bridesmaid</p>
+                                <p className="party-text">Bridesmaid - Molly DePrenger</p>
                             </li>
                             <li>
                                 <img className="party-photo" src={QMark} alt="img"/>
-                                <p className="party-text">Bridesmaid</p>
+                                <p className="party-text">Bridesmaid - Ali Nepola</p>
                             </li>
                             <li>
                                 <img className="party-photo" src={QMark} alt="img"/>
-                                <p className="party-text">Bridesmaid</p>
+                                <p className="party-text">Bridesmaid - Rachel Stratman</p>
                             </li>
                             <li>
                                 <img className="party-photo" src={QMark} alt="img"/>
-                                <p className="party-text">Bridesmaid</p>
+                                <p className="party-text">Bridesmaid - Lauren McEniff</p>
                             </li>
                             <li>
                                 <img className="party-photo" src={QMark} alt="img"/>
-                                <p className="party-text">Bridesmaid</p>
+                                <p className="party-text">Bridesmaid - Amber Ritzman</p>
                             </li>
                         </ul>
                     </div>
