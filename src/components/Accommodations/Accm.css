@@ -1,51 +1,42 @@
-
-
 .container-accm {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 10px 10px;
+    justify-content: space-evenly;
     text-align: center;
+    padding: 20px 20px;
 }
 
-.hotel-picture {
-    width: 80vw;
-    height: 90vw;
-}
 
-.hotel-logo {
-    margin-bottom: -100px;
-}
 
 .highlander {
-    flex: 50%;
-    max-width: 100%;
+    background-image: url('../images/places/hotel.jpg');
+    
 }
 
-@media (min-width: 540px) {
-    .hotel-picture {
-        width: 450px;
-        height: 440px;
+.photo-block {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 275px;
+    width: 500px;
+}
+
+.iowacity {
+    background-image: url('../images/places/iowacity.jpg');
+    
+}
+
+@media (min-width: 768px) {
+    .container-accm {
+        flex-direction: row;
+        justify-content: space-evenly;
     }
-}
 
-
-@media (min-width: 945px) {
     .hotel {
-        display: inline-block;
         width: 50%;
     }
 
-    .hotel-info {
-        padding-left: 10px;
-        margin-top: 0px;
+    .photo-block {
+        height: 275px;
     }
-
-    .container-accm {
-        flex-direction: row;
-    }
-
-
-    
 }
