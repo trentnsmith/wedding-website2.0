@@ -1,14 +1,22 @@
 .main {
-    background: url('../images/places/sd3.jpg') no-repeat;
-    background-size: cover;
     height: 500px;
     transition: all .5s ease;
-    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-    filter: grayscale(100%);
+    margin-top: 50px;
+    align-items: center;
+    /* -webkit-filter: grayscale(100%); Safari 6.0 - 9.0
+    filter: grayscale(100%); */
+}
+
+.photo-main {
+    background: url('../images/story/fallphotocut.jpg') no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
 }
 
 @media (min-width: 768px) {
     .main {
-        margin-top: 65px;
+        height: 600px;
+        margin-top: 60px;
     }
 }

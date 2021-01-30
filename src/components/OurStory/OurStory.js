@@ -22,8 +22,7 @@ class Story extends Component {
                                 <img className="story-photo first" src={FirstPhoto} alt="Our First" />
                             </div>
                             <div className="story-details">
-                                <p>How We Met… A Broken Phone Brings People Together
-                                </p>
+                                <h2>How We Met… A Broken Phone Brings People Together</h2>
                                 <p>Summer 2018. What started out as a normal day for Jean, 
                                 ended up being a stressful one when her phone would not 
                                 turn on!  After her workout she stopped by the Sprint 
@@ -43,7 +42,7 @@ class Story extends Component {
 
                         <div className="story-block story-date">
                             <div className="story-details">
-                                <p>Our First Date… Scriptown</p>
+                                <h2>Our First Date… Scriptown</h2>
                                 <p>A few days after they met, Trent decided not to wait for 
                                 Jean to call him and took matters into his own hands.  
                                 Why not “shoot your shot?!”  While Jean was busy trying
@@ -71,7 +70,7 @@ class Story extends Component {
                                 <img className="story-photo first" src={Hawaii} alt="Waterfall" />
                             </div>
                             <div className="story-details">
-                                <p>In Between… Trips and More Trips</p>
+                                <h2>In Between… Trips and More Trips</h2>
                                 <p>Over the last 2.5 years, we have grown and built our lives
                                 together. We have had the opportunity to travel throughout
                                 the country, often to see friends and family, from New Jersey
@@ -88,23 +87,23 @@ class Story extends Component {
 
                         <div className="story-block story-engagement">
                             <div className="story-details">
-                                <p>The Engagement…She Said Yes</p>
+                                <h2>The Engagement…She Said Yes</h2>
                                 <p>After two years of dating, we planned a trip to South Dakota.  
-                                    I (Trent) had never been to Mount Rushmore or the Black Hills.
-                                      Hotels just aren’t the way to experience the Black Hills;
-                                       we opted for the less rugged version of traditional camping
-                                        aka glamping. During the days leading up to our departure
-                                         (including our drive), I researched every hike in the area.
-                                          Jean had no idea I was in search of the highest elevation
-                                           East of the Rocky Mountains as the scene for a memorable
-                                            moment. On our second day in South Dakota, we summited 
-                                            Black Elk Peak.  When we reached the top, Jean had no
-                                             idea why I could not sit still and enjoy the view; she 
-                                             didn’t know I was looking for the perfect, photogenic 
-                                             spot.  After quickly locating (and hiring) our soon to
-                                              be engagement photographer to take a few pictures for
-                                               us, I reached into my backpack, turned around, and
-                                                got down on one knee. The rest is history. </p>
+                                I (Trent) had never been to Mount Rushmore or the Black Hills.
+                                Hotels just aren’t the way to experience the Black Hills;
+                                we opted for the less rugged version of traditional camping
+                                aka glamping. During the days leading up to our departure
+                                (including our drive), I researched every hike in the area.
+                                Jean had no idea I was in search of the highest elevation
+                                East of the Rocky Mountains as the scene for a memorable
+                                moment. On our second day in South Dakota, we summited 
+                                Black Elk Peak.  When we reached the top, Jean had no
+                                idea why I could not sit still and enjoy the view; she 
+                                didn’t know I was looking for the perfect, photogenic 
+                                spot.  After quickly locating (and hiring) our soon to
+                                be engagement photographer to take a few pictures for
+                                us, I reached into my backpack, turned around, and
+                                got down on one knee. The rest is history. </p>
                             </div>
                             <div className="photo-container">
                                 <img className="story-photo first" src={Engagement} alt="Engagement" />

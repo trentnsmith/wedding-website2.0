@@ -5,7 +5,9 @@ class Main extends Component {
     render() { 
         return (
             <section className="main">
-                
+                <div className="photo-main">
+
+                </div>
             </section>
         );
     }

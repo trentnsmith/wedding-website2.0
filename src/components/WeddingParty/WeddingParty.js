@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './WeddingParty.css';
 
 import QMark from '../images/wedding-party/question.png';
+import Grace from '../images/wedding-party/grace.jpg';
 
 class WeddingParty extends Component {
     render() { 
@@ -15,7 +16,7 @@ class WeddingParty extends Component {
                     <div className="party party-bride">
                         <ul>
                             <li>
-                                <img className="party-photo" src={QMark} alt="img"/>
+                                <img className="party-photo" src={Grace} alt="img"/>
                                 <p className="party-text">Maid of Honor - Grace Larew</p>
                             </li>
                             <li>

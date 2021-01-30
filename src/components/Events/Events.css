@@ -21,18 +21,22 @@ h1 {
 
 .reception-event {
     background-image: url('../images/places/walker.JPG');
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
-    width: 500px;
-    height: 400px;
+    height: 275px;
+    width: 100%;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
 
 .wedding-event {
     background-image: url('../images/places/church.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
-    height: 500px;
-    width: 400px;
+    height: 275px;
+    width: 100%;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
@@ -55,6 +59,10 @@ h1 {
         justify-content: space-evenly;
     }
 
+    .event {
+        width: 50%;
+        margin: 0 20px;
+    }
     
     
 }

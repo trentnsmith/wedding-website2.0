@@ -1,16 +1,24 @@
 .container-accm {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: flex-end;
     text-align: center;
     padding: 20px 20px;
 }
 
+.hotel {
+    max-width: 80%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: relative;
+}
 
+.hotel-high {
+    margin-bottom: 50px;
+}
 
 .highlander {
     background-image: url('../images/places/hotel.jpg');
-    
 }
 
 .photo-block {
@@ -18,22 +26,36 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 275px;
-    width: 500px;
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 .iowacity {
     background-image: url('../images/places/iowacity.jpg');
-    
+}
+
+.info-block {
+    padding: 20px 10px;
+}
+
+.info-block p, .info-block li {
+    text-align: start;
 }
 
 @media (min-width: 768px) {
     .container-accm {
+        display: flex;
         flex-direction: row;
         justify-content: space-evenly;
+        text-align: center;
+        padding: 20px 20px;
+        
     }
 
     .hotel {
         width: 50%;
+        margin: 0 20px;
     }
 
     .photo-block {

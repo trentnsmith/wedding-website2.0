@@ -12,11 +12,11 @@ class Accm extends Component {
                     <h1> Accommodations</h1>
                 </div>
                 <div className="container-accm">
-                    <div className="hotel">
+                    <div className="hotel hotel-high">
                         <div className="photo-block highlander">
                             
                         </div>
-                        <div>
+                        <div className="info-block">
                             <h2>Hotel</h2>
                             <h3>The Highlander Hotel</h3>
                             <a href="https://www.google.com/maps/place/The+Highlander+Hotel/@41.6884292,-91.4975532,17z/data=!3m1!4b1!4m8!3m7!1s0x87e46983f8ad28ed:0x361441f31deb06ef!5m2!4m1!1i2!8m2!3d41.6884292!4d-91.4953645" target="_blank" rel="noreferrer" >
@@ -33,20 +33,21 @@ class Accm extends Component {
                             This will be aded to the RSVP!</p>
                         </div>
                     </div>
-                    <div className="hotel">
+                    <div className="hotel hotel-iowa">
                         <div className="photo-block iowacity">
                             
                         </div>
-                        
-                        <h2>Things To Do In The Area</h2>
-                        <ul>
-                            <li>Terry Trueblood Recreation Area</li>
-                            <li>Downtown Iowa City</li>
-                            <li>Brown Deer Golf</li>
-                            <li>Big Grove Brewery</li>
-                            <li>Backpocket Brewery</li>
-                            <li>30 Hop American Grill w/ Rooftop Patio</li>
-                        </ul>
+                        <div className="info-block">
+                            <h2>Things To Do In The Area</h2>
+                            <ul>
+                                <li>Terry Trueblood Recreation Area</li>
+                                <li>Downtown Iowa City</li>
+                                <li>Brown Deer Golf</li>
+                                <li>Big Grove Brewery</li>
+                                <li>Backpocket Brewery</li>
+                                <li>30 Hop American Grill w/ Rooftop Patio</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </section>
