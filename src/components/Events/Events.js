@@ -4,7 +4,7 @@ import './Events.css';
 class Events extends Component {
     render() { 
         return (
-            <section className="events-section">   
+            <section className="events-section" id="eventsScroll">   
                 <div>
                     <h1>Events</h1>
                 </div>

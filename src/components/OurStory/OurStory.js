@@ -13,7 +13,7 @@ class Story extends Component {
     render() { 
        
         return (
-            <section className="story-section">
+            <section className="story-section" id="ourStoryScroll">
                 <div className="story-overlay">
                 <h1>Our Story</h1>
                     <div className="story-container">

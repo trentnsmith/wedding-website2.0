@@ -6,6 +6,7 @@ import Events from './components/Events/Events';
 import Registry from './components/Registry/Registry';
 import WeddingParty from './components/WeddingParty/WeddingParty';
 import Footer from './components/Footer/Footer';
+import RSVP from './components/RSVP/RSVP';
 import Accm from './components/Accommodations/Accm';
 import './App.css';
 
@@ -21,6 +22,7 @@ class App extends Component {
         <Accm />
         <Registry />
         <WeddingParty />
+        <RSVP />
         <Footer />
       </main>
     );
