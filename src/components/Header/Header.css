@@ -1,6 +1,4 @@
-header {
-    display: block;
-}
+
 
 .site-header {
     background-color: white;
@@ -15,7 +13,6 @@ header {
 
 .navbar-brand {
     font-size: 22px;
-    overflow: hidden;
     transition: all .5s ease;
     width: auto;
     font-family: 'Parisienne', cursive;
@@ -31,6 +28,10 @@ header {
     display: inline;
 }
 
+.nav-item > .active {
+    border-bottom: 2px solid #E580A4;
+}
+
 .nav-link {
     text-decoration: none;
     color: black;
@@ -44,11 +45,7 @@ header {
 @media (min-width: 768px) {
     
 
-    .navbar-toggle {
-        display: none;
-
-    }
-
+   
     .navbar-brand {
         height: 65px;
         font-size: 50px;

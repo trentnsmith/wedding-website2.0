@@ -1,0 +1,53 @@
+.ham_menu {
+    list-style-type: none;
+    display: flex;
+    flex-flow: column nowrap;
+    padding-top: 20px;
+}
+
+.hamburger {
+    display: flex;
+    flex-direction: column;
+}
+.ham_link {
+    text-decoration: none;
+    color: green;
+    transition-duration: 0.4s;
+}
+
+.ham_link:hover {
+    color: green;
+}
+
+.main-navigation {
+    
+    background: white;
+    text-align: left; 
+}
+
+.ham_menu_items {
+    padding-bottom: 20px;
+    padding-right: 20px;
+}
+
+.ham_button {
+    width: 10%;
+    align-items: flex-end;
+    background: white;
+    color: black;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+.ham_button:hover {
+    opacity: 0.4;
+}
+
+@media screen and (min-width: 768px) {
+    .hamburger {
+        display: none;
+    }
+    
+}
