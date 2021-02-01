@@ -22,13 +22,25 @@ class Accm extends Component {
                             <a href="https://www.google.com/maps/place/The+Highlander+Hotel/@41.6884292,-91.4975532,17z/data=!3m1!4b1!4m8!3m7!1s0x87e46983f8ad28ed:0x361441f31deb06ef!5m2!4m1!1i2!8m2!3d41.6884292!4d-91.4953645" target="_blank" rel="noreferrer" >
                                 2525 Highlander Pl, Iowa City, IA 52245
                             </a>< br />
-                            <h4>Hotel Amentities</h4>
-                            <p>things to do at hotel and link to amentities page</p>
+                            <p>Please call to reserve a room under the Smith/Larew block</p>
+                            <p>ph. (319) 354-2000</p>
+                            <h4><a href="https://www.highlanderhotel.us/urban-resort/amenities">Hotel Amentities</a></h4>
+                            <p>
+                                <ul>
+                                    <li>Indoor Pool</li>
+                                    <li>Hot Tub</li>
+                                    <li>Cornhole</li>
+                                    <li>Fitness Room</li>
+                                    <li>Courtyard</li>
+                                    <li>Lending Library</li>
+                                    <li>Patio</li>
+                                </ul>
+                            </p>
                             <h2>Transportation</h2>
                             <p>Transportation will be provided to Walker Homestead from 
                             The Highlander Hotel, and back to the hotel when the reception has ended.</p>
-                            <p>Please check back for updates!</p>
-                            <p>Once the formal invitations are sent, we would like 
+                            <p className="updates">Please check back for updates!</p>
+                            <p className="updates">Once the formal invitations are sent, we would like 
                             to get a head count of who will be using the transportation service. 
                             This will be aded to the RSVP!</p>
                         </div>
@@ -39,7 +51,7 @@ class Accm extends Component {
                         </div>
                         <div className="info-block">
                             <h2>Things To Do In The Area</h2>
-                            <ul>
+                            <ul className="to-do">
                                 <li>Terry Trueblood Recreation Area</li>
                                 <li>Downtown Iowa City</li>
                                 <li>Brown Deer Golf</li>

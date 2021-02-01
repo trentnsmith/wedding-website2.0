@@ -16,6 +16,7 @@
     transition: all .5s ease;
     width: auto;
     font-family: 'Parisienne', cursive;
+    color: #588068;
 }
 
 .navbar-nav {
@@ -26,6 +27,8 @@
 .nav-item {
     text-decoration: none;
     display: inline;
+    padding: 0 20px;
+    color: #1F3B2C;
 }
 
 .nav-item > .active {

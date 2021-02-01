@@ -16,7 +16,9 @@
     align-items: center;
 }
 
-
+.updates {
+    text-align: center;
+}
 
 @media (min-width: 945px) {
     .reg-container {

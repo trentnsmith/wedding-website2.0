@@ -8,9 +8,14 @@ h1 {
   padding-bottom: 25px;
   padding-top: 25px;
   font-size: 40px;
+  color: #588068;
 }
 
 section {
   display: block;
 }
 
+.updates {
+  color: red;
+  font-family: 'Bellefair', serif;
+}

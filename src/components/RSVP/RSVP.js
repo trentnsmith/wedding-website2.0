@@ -3,12 +3,12 @@ import React, { Component } from 'react';
 class RSVP extends Component {
     render() { 
         return (
-            <section id="rsvpScroll">
+            <section id="rsvpScroll" className="rsvp-section">
                 <div>
                     <h1>RSVP</h1>
                 </div>
-                <div>
-                    <h2 className="important">Check back after you receive the formal inivation!</h2>
+                <div className="updates">
+                    <p>Check back after you receive the formal inivation!</p>
                 </div>
             </section>
         );

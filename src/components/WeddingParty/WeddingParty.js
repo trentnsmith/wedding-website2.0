@@ -13,15 +13,20 @@ import Brian from '../images/wedding-party/brian.JPG';
 import Molly from '../images/wedding-party/molly.JPG';
 import Katie from '../images/wedding-party/katie.JPG';
 import Rachel from '../images/wedding-party/rachel.JPG';
+import Ali from '../images/wedding-party/ali.JPG';
+import Lauren from '../images/wedding-party/lauren.JPG';
+import Amber from '../images/wedding-party/amber.JPG';
 
 class WeddingParty extends Component {
     render() { 
         return (
-            <section className="wedding-party" id="weddingPartyScroll">
-                <div className="overlay-party"></div>
+            <div>
                 <div className="party-header">
                     <h1>Wedding Party</h1>
                 </div>
+            <section className="wedding-party" id="weddingPartyScroll">
+                <div className="overlay-party"></div>
+                
                 <div className="container-party">
                     <div className="party party-bride">
                         <ul>
@@ -38,7 +43,7 @@ class WeddingParty extends Component {
                                 <p className="party-text">Bridesmaid - Molly DePrenger</p>
                             </li>
                             <li>
-                                <img className="party-photo" src={QMark} alt="img"/>
+                                <img className="party-photo" src={Ali} alt="img"/>
                                 <p className="party-text">Bridesmaid - Ali Nepola</p>
                             </li>
                             <li>
@@ -46,11 +51,11 @@ class WeddingParty extends Component {
                                 <p className="party-text">Bridesmaid - Rachel Stratman</p>
                             </li>
                             <li>
-                                <img className="party-photo" src={QMark} alt="img"/>
+                                <img className="party-photo" src={Lauren} alt="img"/>
                                 <p className="party-text">Bridesmaid - Lauren McEniff</p>
                             </li>
                             <li>
-                                <img className="party-photo" src={QMark} alt="img"/>
+                                <img className="party-photo" src={Amber} alt="img"/>
                                 <p className="party-text">Bridesmaid - Amber Ritzman</p>
                             </li>
                         </ul>
@@ -89,6 +94,7 @@ class WeddingParty extends Component {
                     </div>
                 </div>
             </section>
+            </div>
         );
     }
 }

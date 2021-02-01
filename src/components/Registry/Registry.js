@@ -9,8 +9,8 @@ class Registry extends Component {
         return (
             <section className="reg-section" id="registryScroll">
                 <h1>Registry</h1>
-                <div>
-                    <h2 className="important">Check back after you receive the formal inivation!</h2>
+                <div className="updates">
+                    <p>Check back after you receive the formal inivation!</p>
                 </div>
                 <div className="reg-container">
                     <div className="reg reg-target">

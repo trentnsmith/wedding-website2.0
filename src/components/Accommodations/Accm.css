@@ -6,8 +6,24 @@
     padding: 20px 20px;
 }
 
+h2, h3, h4 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+.info-block p {
+    font-family: 'Bellefair', serif;
+    font-size: larger;
+}
+
+.info-block a {
+    text-decoration: none;
+    color: #E580A4;
+}
+
 .hotel {
-    max-width: 90%;
+    max-width: 80%;
     border-radius: 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     position: relative;
@@ -43,6 +59,10 @@
     text-align: start;
 }
 
+.to-do {
+    font-family: 'Bellefair', serif;
+}
+
 @media (min-width: 768px) {
     .container-accm {
         display: flex;
@@ -68,7 +88,5 @@
         align-items: center;
     }
 
-    .hotel {
-        width: 80%;
-    }
+    
 }
