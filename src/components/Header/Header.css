@@ -41,6 +41,10 @@
     padding: 20px;
 }
 
+.nav-item:hover {
+    cursor: pointer;
+}
+
 .navbar-collapse {
     display: none;
 }

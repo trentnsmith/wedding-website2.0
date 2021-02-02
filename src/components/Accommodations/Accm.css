@@ -18,8 +18,9 @@ h2, h3, h4 {
 }
 
 .info-block a {
-    text-decoration: none;
+    text-decoration: underline;
     color: #E580A4;
+
 }
 
 .hotel {
@@ -61,6 +62,7 @@ h2, h3, h4 {
 
 .to-do {
     font-family: 'Bellefair', serif;
+    font-size: larger;
 }
 
 @media (min-width: 768px) {
@@ -88,5 +90,8 @@ h2, h3, h4 {
         align-items: center;
     }
 
+    .hotel-iowa {
+        width: 80%;
+    }
     
 }

@@ -16,7 +16,7 @@ h3 {
 }
 
 .event a {
-    text-decoration: none;
+    text-decoration: underline;
     color: #E580A4;
 }
 
@@ -81,6 +81,7 @@ h3 {
     .event {
         width: 50%;
         margin: 0 20px;
+        height: 461px;
     }
     
     
