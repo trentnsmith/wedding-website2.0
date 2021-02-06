@@ -64,3 +64,21 @@
         display: initial;
     }
 }
+
+@media (max-width: 767px) {
+    #header {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        height: 50px;
+    }
+
+    .navbar-brand {
+        font-size: 33px;
+        padding-right: 25px;
+    }
+
+    .hamburger {
+        width: 50px;
+    }
+}

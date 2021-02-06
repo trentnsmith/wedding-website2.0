@@ -25,7 +25,7 @@ class Header extends Component {
                                     to="ourStoryScroll"
                                     spy={true}
                                     smooth={true}
-                                    offset={-70}
+                                    offset={-100}
                                     duration={500}
                                 >
                                 Our Story
@@ -38,7 +38,7 @@ class Header extends Component {
                                     to="eventsScroll"
                                     spy={true}
                                     smooth={true}
-                                    offset={-70}
+                                    offset={-100}
                                     duration={500}
                                 >
                                 Events
@@ -51,7 +51,7 @@ class Header extends Component {
                                     to="accmScroll"
                                     spy={true}
                                     smooth={true}
-                                    offset={-70}
+                                    offset={-100}
                                     duration={500}
                                 >
                                 Accommodations
@@ -64,7 +64,7 @@ class Header extends Component {
                                     to="registryScroll"
                                     spy={true}
                                     smooth={true}
-                                    offset={-70}
+                                    offset={-100}
                                     duration={500}
                                 >
                                 Registry
@@ -77,7 +77,7 @@ class Header extends Component {
                                     to="weddingPartyScroll"
                                     spy={true}
                                     smooth={true}
-                                    offset={-70}
+                                    offset={-250}
                                     duration={500}
                                 >
                                 Wedding Party
@@ -90,7 +90,7 @@ class Header extends Component {
                                     to="rsvpScroll"
                                     spy={true}
                                     smooth={true}
-                                    offset={-70}
+                                    offset={-100}
                                     duration={500}
                                 >
                                 RSVP

@@ -7,7 +7,7 @@ class Hamburger extends Component {
         super();
 
         this.state = {
-            showMenu: false,
+            showMenu: true,
         };
 
         this.showMenu = this.showMenu.bind(this);
@@ -35,7 +35,7 @@ class Hamburger extends Component {
     render() {
         return (
             <div className="hamburger">
-                <button class="ham_button" onClick={this.showMenu}>
+                <button className="ham_button" onClick={this.showMenu}>
                     <i class="fas fa-bars" ></i>
                 </button>
 
