@@ -10,48 +10,38 @@ class Hamburger extends Component {
             showMenu: false,
         };
 
-        this.toggleMenu = this.toggleMenu.bind(this);
+        this.showMenu = this.showMenu.bind(this);
         this.closeMenu = this.closeMenu.bind(this);
     };
 
-    toggleMenu(event) {
+    showMenu(event) {
         event.preventDefault();
+        this.setState({ showMenu: true }, () => {
+            setTimeout(() => {
+                document.addEventListener('click', this.closeMenu);
+            });
+        });
+    };
 
-        console.log('showmenu clicked')
-
-        this.setState({ showMenu: !this.state.showMenu }
-            // () => {
-            // this.closeMenu()
-            // if (this.state.showMenu) {
-            //     document.addEventListener('click', () => {
-            //         this.closeMenu()
-            //     })
-            // }
-            // else {
-            //     document.removeEventListener('click', this.closeMenu)
-            // }
-        //   }
-          );
-    }
-
-    closeMenu() {
-        console.log('showmenu closed')
+    closeMenu(e) {
         this.setState({ showMenu: false }, () => {
-            // document.removeEventListener('click', this.closeMenu);
+            setTimeout(() => {
+                document.removeEventListener('click', this.closeMenu);
+            });
         });
     };
 
     render() {
         return (
             <div className="hamburger">
-                <button className="ham_button" onClick={this.toggleMenu}>
+                <button className="ham_button" onClick={this.showMenu}>
                     <i class="fas fa-bars" ></i>
                 </button>
 
                 {this.state.showMenu ? (
                     <div className="main-navigation">
                         <ul className="ham_menu">
-                            
+
                             <li className="ham_menu_items">
                                 <Link
                                     className="ham_link"
@@ -61,10 +51,11 @@ class Hamburger extends Component {
                                     smooth={true}
                                     offset={-70}
                                     duration={500}
+                                    onClick={this.closeMenu}
                                 >
                                 Our Story
                                 </Link>
-                                
+
                             </li>
                             <li className="ham_menu_items">
                                 <Link
@@ -75,6 +66,7 @@ class Hamburger extends Component {
                                     smooth={true}
                                     offset={-70}
                                     duration={500}
+                                    onClick={this.closeMenu}
                                 >
                                 Events
                                 </Link>
@@ -88,6 +80,7 @@ class Hamburger extends Component {
                                     smooth={true}
                                     offset={-70}
                                     duration={500}
+                                    onClick={this.closeMenu}
                                 >
                                 Accommodations
                                 </Link>
@@ -101,6 +94,7 @@ class Hamburger extends Component {
                                     smooth={true}
                                     offset={-70}
                                     duration={500}
+                                    onClick={this.closeMenu}
                                 >
                                 Registry
                                 </Link>
@@ -114,6 +108,7 @@ class Hamburger extends Component {
                                     smooth={true}
                                     offset={-200}
                                     duration={500}
+                                    onClick={this.closeMenu}
                                 >
                                 Wedding Party
                                 </Link>
@@ -127,6 +122,7 @@ class Hamburger extends Component {
                                     smooth={true}
                                     offset={-70}
                                     duration={500}
+                                    onClick={this.closeMenu}
                                 >
                                 RSVP
                                 </Link>
@@ -134,7 +130,7 @@ class Hamburger extends Component {
                         </ul>
                     </div>
                  ) :
-                (null) 
+                (null)
                 }
 
             </div>
