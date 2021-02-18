@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import './Accm.css';
-import Hotel from '../images/places/hotel.jpg';
-import IowaCity from '../images/places/iowacity.jpg';
+
 
 class Accm extends Component {
     
@@ -27,7 +26,7 @@ class Accm extends Component {
                             <p>Please call to reserve a room under the Smith/Larew block</p>
                             <p>ph. (319) 354-2000</p>
                             <h4><a href="https://www.highlanderhotel.us/urban-resort/amenities">Hotel Amentities</a></h4>
-                            <p>
+                            <div>
                                 <ul>
                                     <li>Indoor Pool</li>
                                     <li>Hot Tub</li>
@@ -37,7 +36,7 @@ class Accm extends Component {
                                     <li>Lending Library</li>
                                     <li>Patio</li>
                                 </ul>
-                            </p>
+                            </div>
                             <h2>Transportation</h2>
                             <p>Transportation will be provided to Walker Homestead from 
                             The Highlander Hotel, and back to the hotel when the reception has ended.</p>
