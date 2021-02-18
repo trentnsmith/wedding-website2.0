@@ -7,35 +7,44 @@ class Hamburger extends Component {
         super();
 
         this.state = {
-            showMenu: true,
+            showMenu: false,
         };
 
-        this.showMenu = this.showMenu.bind(this);
+        this.toggleMenu = this.toggleMenu.bind(this);
         this.closeMenu = this.closeMenu.bind(this);
     };
 
-    showMenu(event) {
+    toggleMenu(event) {
         event.preventDefault();
 
-        
+        console.log('showmenu clicked')
 
-        this.setState({ showMenu: true }, () => {
-            document.addEventListener('click', this.closeMenu);
-          });
+        this.setState({ showMenu: !this.state.showMenu }
+            // () => {
+            // this.closeMenu()
+            // if (this.state.showMenu) {
+            //     document.addEventListener('click', () => {
+            //         this.closeMenu()
+            //     })
+            // }
+            // else {
+            //     document.removeEventListener('click', this.closeMenu)
+            // }
+        //   }
+          );
     }
 
-   
-   
     closeMenu() {
+        console.log('showmenu closed')
         this.setState({ showMenu: false }, () => {
-            document.removeEventListener('click', this.closeMenu);
+            // document.removeEventListener('click', this.closeMenu);
         });
     };
 
     render() {
         return (
             <div className="hamburger">
-                <button className="ham_button" onClick={this.showMenu}>
+                <button className="ham_button" onClick={this.toggleMenu}>
                     <i class="fas fa-bars" ></i>
                 </button>
 
@@ -103,7 +112,7 @@ class Hamburger extends Component {
                                     to="weddingPartyScroll"
                                     spy={true}
                                     smooth={true}
-                                    offset={-70}
+                                    offset={-200}
                                     duration={500}
                                 >
                                 Wedding Party
