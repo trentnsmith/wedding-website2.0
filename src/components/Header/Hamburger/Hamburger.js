@@ -23,7 +23,7 @@ class Hamburger extends Component {
         });
     };
 
-    closeMenu(e) {
+    closeMenu() {
         this.setState({ showMenu: false }, () => {
             setTimeout(() => {
                 document.removeEventListener('click', this.closeMenu);
