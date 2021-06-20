@@ -23,7 +23,7 @@ class Events extends Component {
                                     228 E Jefferson St, Iowa City, IA 52245
                                 </a><br />
                                 August 21st, 2021<br />
-                                Service: 3:00PM
+                                Service: 3:00 PM
                             </p>
                         </div>
                     </div>
@@ -42,8 +42,8 @@ class Events extends Component {
                                     3867 James Ave SW, Iowa City, IA 52246
                                 </a><br />
                                 August 21st, 2021<br />
-                                Cocktail Hour: TBD<br />
-                                Dinner/Reception: TBD
+                                Cocktail Hour: 5:00 PM<br />
+                                Dinner/Reception: 6:00 PM
                             </p>
                         </div>
                     </div>
