@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './WeddingParty.css';
 
-import QMark from '../images/wedding-party/question.png';
+// import QMark from '../images/wedding-party/question.png';
 import Grace from '../images/wedding-party/grace.jpg';
 import Nick from '../images/wedding-party/nick.JPG';
 import Kayley from '../images/wedding-party/kayley.JPG';

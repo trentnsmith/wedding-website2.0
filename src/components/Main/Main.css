@@ -8,7 +8,7 @@
 }
 
 .photo-main {
-    background: url('../images/story/fallphotocut.jpg') no-repeat;
+    background: url('../images/story/engphoto1.jpg') no-repeat;
     background-size: cover;
     height: 100%;
     width: 100%;
@@ -18,5 +18,15 @@
     .main {
         height: 600px;
         margin-top: 60px;
+    }
+}
+
+@media (max-width: 767px) {
+    .photo-main {
+        background: url('../images/story/engphoto2.jpg') no-repeat;
+        background-size: cover;
+        background-attachment:local;
+        height: 100%;
+        width: 100%;
     }
 }
