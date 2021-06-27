@@ -10,7 +10,9 @@ h2, h3, h4 {
     font-family: 'Open Sans', sans-serif;
 }
 
-
+.block_note {
+    color: red;
+}
 
 .info-block p {
     font-family: 'Bellefair', serif;

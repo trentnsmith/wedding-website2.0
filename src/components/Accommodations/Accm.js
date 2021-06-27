@@ -25,7 +25,10 @@ class Accm extends Component {
                             </a>< br />
                             <p>Please email Jaime Harris directly to reserve a room under the Smith/Larew block.</p>
                             <p>email: jaime@highlanderhotel.us</p>
-                            <h4><a href="https://www.highlanderhotel.us/urban-resort/amenities">Hotel Amentities</a></h4>
+                            <p className="block_note">*Please note that our room block will close on July 7, 2021. You are still able to book at the hotel after 
+                                this day, it will be at regular day rates.
+                            </p>
+                            <h4><a href="https://www.highlanderhotel.us/urban-resort/amenities" target="_blank" rel="noreferrer" >Hotel Amentities</a></h4>
                             <div>
                                 <ul>
                                     <li>Indoor Pool</li>
@@ -40,10 +43,9 @@ class Accm extends Component {
                             <h2>Transportation</h2>
                             <p>Transportation will be provided to Walker Homestead from 
                             The Highlander Hotel, and back to the hotel when the reception has ended.</p>
-                            <p className="updates">Please check back for updates!</p>
-                            <p className="updates">Once the formal invitations are sent, we would like 
-                            to get a head count of who will be using the transportation service. 
-                            This will be added to the RSVP!</p>
+                            <p className="updates">Please check back for updates regarding shuttle times!</p>
+                            <p className="updates">We appreciate your RSVP to ensure we have a seat availabe for anyone interested. 
+                            Please see the RSVP form.</p>
                         </div>
                     </div>
                     <div className="hotel hotel-iowa">

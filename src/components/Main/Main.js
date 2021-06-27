@@ -6,7 +6,7 @@ class Main extends Component {
         return (
             <section className="main">
                 <div className="photo-main">
-
+                    
                 </div>
             </section>
         );
