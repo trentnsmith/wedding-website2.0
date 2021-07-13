@@ -25,7 +25,7 @@ class Accm extends Component {
                             </a>< br />
                             <p>Please email Jaime Harris directly to reserve a room under the Smith/Larew block.</p>
                             <p>email: jaime@highlanderhotel.us</p>
-                            <p className="block_note">*Please note that our room block will close on July 7, 2021. You are still able to book at the hotel after 
+                            <p className="block_note">*Please note that our room block will close on July 21, 2021. You are still able to book at the hotel after 
                                 this day, it will be at regular day rates.
                             </p>
                             <h4><a href="https://www.highlanderhotel.us/urban-resort/amenities" target="_blank" rel="noreferrer" >Hotel Amentities</a></h4>

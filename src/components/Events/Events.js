@@ -23,7 +23,8 @@ class Events extends Component {
                                     228 E Jefferson St, Iowa City, IA 52245
                                 </a><br />
                                 August 21st, 2021<br />
-                                Service: 3:00 PM
+                                Service: 3:00 PM<br />
+                                *Attire: Semi-Formal
                             </p>
                         </div>
                     </div>
@@ -43,7 +44,9 @@ class Events extends Component {
                                 </a><br />
                                 August 21st, 2021<br />
                                 Cocktail Hour: 5:00 PM<br />
-                                Dinner/Reception: 6:00 PM
+                                Dinner/Reception: 6:00 PM<br />
+                                *Attire: Semi-Formal
+                                
                             </p>
                         </div>
                     </div>
