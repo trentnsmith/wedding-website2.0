@@ -24,7 +24,7 @@ class Events extends Component {
                                 </a><br />
                                 August 21st, 2021<br />
                                 Service: 3:00 PM<br />
-                                *Attire: Semi-Formal
+                                Attire: Semi-Formal
                             </p>
                         </div>
                     </div>
